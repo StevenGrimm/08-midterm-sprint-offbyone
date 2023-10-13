@@ -1,0 +1,57 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build current file",
+            "detail": "Build current file as executable with g++",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "--std=c++17"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "Build with make",
+            "detail": "Build project with make build system",
+            "command": "make all",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Test with make and Catch2",
+            "detail": "Build project with make and test with Expect",
+            "command": "make test",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+
+        {
+            "type": "shell",
+            "label": "Clean with make",
+            "command": "make clean",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}

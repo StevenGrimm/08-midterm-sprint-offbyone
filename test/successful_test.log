@@ -1,0 +1,126 @@
+Building target program
+
+Starting target program
+spawn bin/class_roster
+
+Welcome to CTCH LMS v 0.03, Year 2050
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Please select the operation
+q
+
+Please select integer from the list of offered functions, 1 to 4
+Invalid functionality selection
+Database error, could not retrieve Menu functionality data
+
+
+Operation selection user input validation working, todo 1 and 2
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Please select the operation
+3
+
+Please enter index of student to be deleted
+q
+
+Please enter integer within the range of current roster
+
+Deletion user input validation working, todo 3 
+
+1
+
+Student information deleted, please press any character to continue
+
+Please press enter to continue...
+
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Please select the operation
+
+Re-attempting db failure mock
+1
+
+Class roster:
+
+1. Franco
+2. Umberto
+3. Nino
+4. Jean-Luc
+
+Please press enter to continue...
+
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Please select the operation
+
+Re-attempting db failure mock
+1
+
+Class roster:
+
+1. Franco
+2. Umberto
+3. Nino
+4. Jean-Luc
+
+Please press enter to continue...
+
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Please select the operation
+
+Re-attempting db failure mock
+1
+
+Class roster:
+
+1. Franco
+2. Umberto
+3. Nino
+4. Jean-Luc
+
+Please press enter to continue...
+
+Database error, could not retrieve Menu functionality data
+Database error, could not retrieve Menu functionality data
+
+Main menu:
+
+1. Display roster
+2. Add a student
+3. Delete a student
+4. Exit
+
+Menu parameter check working, todo 4
+
+All 4 todos delivered
